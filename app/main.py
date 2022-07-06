@@ -6,7 +6,7 @@ class KeyValService:
     #class attribute
     test_dict = dict()
 
-    #setter
+    #setter for our app
     def set_key_and_val(self, key, val):
         keys = self.test_dict.keys()
         if key in keys:
